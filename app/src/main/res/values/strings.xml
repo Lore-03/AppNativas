@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AlphaGo</string>
+    <string name="nombre">Lorena Urrego</string>
+    <string name="registro">Registrate</string>
+    <string name="introductorio">Inicia una nueva aventura con AlphaGo y descubre una nueva forma de ver el mundo</string>
+    <string name="comienzo">Comienza</string>
+    <string name="texto_bienvenida">La aventura esta por iniciar, por favor inicia sesión</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="contraseña">Recupera Tu Contraseña</string>
+    <string name="ingresar_google">Ingresa con Google</string>
+    <string name="no_cuenta">No tienes cuenta?</string>
+    <string name="google">Ingresa con Google</string>
+</resources>
