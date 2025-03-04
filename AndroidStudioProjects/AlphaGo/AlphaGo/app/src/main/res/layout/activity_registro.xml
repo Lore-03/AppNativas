@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/plateado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_logo_registro"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_png"/>
+
+        <TextView
+            android:id="@+id/tv_nombreapp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/tv_descripcion_registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:gravity="center"
+            android:text="@string/descripcion_registro"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            style="@style/EditTextRounded"
+            android:layout_width="371dp"
+            android:layout_height="28dp"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Nombres"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etApellido"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Apellidos"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etCorreo"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            style="@style/EditTextRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Repetir Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/negro"
+            android:typeface="normal" />
+
+        <CheckBox
+            android:id="@+id/cbTerminos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:text="Acepto los términos y condiciones" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/verde"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:text="@string/registrarse" />
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:text="¿Ya tienes una cuenta? Inicia sesión"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+</ScrollView>

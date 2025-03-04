@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/plateado">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <!-- Imagen de Perfil -->
+        <ImageView
+            android:id="@+id/iv_foto_perfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_png"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnCambiarFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/verde"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:text="Cambiar Foto"
+            android:textColor="@color/blanco"
+            android:textSize="16sp" />
+
+        <!-- Datos del Usuario -->
+
+        <EditText
+            android:id="@+id/etNombrePerfil"
+            style="@style/EditTextRounded"
+            android:layout_width="424dp"
+            android:layout_height="44dp"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etCorreoPerfil"
+            style="@style/EditTextRounded"
+            android:layout_width="417dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColor="@color/negro" />
+
+        <EditText
+            android:id="@+id/etTelefonoPerfil"
+            style="@style/EditTextRounded"
+            android:layout_width="419dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:hint="Teléfono"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="@color/negro" />
+
+        <Button
+            android:id="@+id/btnGuardarPerfil"
+            android:layout_width="190dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/verde"
+            android:fontFamily="@font/tiro_devanagari_marathi"
+            android:text="Guardar Cambios"
+            android:textColor="@color/blanco"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</ScrollView>
